@@ -1,0 +1,61 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Функциональный слайдер «bxSlider»</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<!--[if IE]><style>.footer a{color:#00ccff;}.footer a:hover{color:#0F6698;}</style><![endif]-->
+</head>
+<body>
+<div class="footer">
+	<a href="http://fot-tof.ru/"><span>&laquo; Перейти на сайт: </span>Fot-Tof.ru</a>
+	<span class="right_ab">
+		<a href="http://fot-tof.ru/Funkcional_nyj_slajder_bxSlider.htm"><strong>Вернуться назад к посту</strong></a>
+	</span>
+</div>
+<div class="bx-wrapper">
+    <ul class="bxslider">
+        <li><img src="images/1.jpg" /></li>
+        <li><img src="images/2.jpg" title="Поддержка браузеров: Firefox, Chrome, Safari, IOS, Android, IE7 +" /></li>
+		<li>
+		    <div class="left"><img src="images/4.png" /></div>
+            <div class="right">
+			    <H3>ВОЗМОЖНОСТИ СЛАЙДЕРА</H3>
+	            <p>Полная адаптация к любому устройству, полный интерфейс API.</p>
+	            <p>Горизонтальная, вертикальная смена слайдов или смена эффектом fade.</p>
+	            <p>Слайды могут содержать изображения, видео или контент HTML.</p>
+	            <p>Поддержка сенсорных экранов, использует CSS для смены слайдов.</p>
+	            <p>Небольшой размер файла плагина и простота реализации.</p> 
+                <p>Поддержка браузеров: Firefox, Chrome, Safari, IOS, Android, IE7 +</p>   				
+            </div>
+		</li>
+		<li><iframe width="765" height="410" src="http://www.youtube.com/embed/ZJPcLB4n1f8?feature=player_detailpage" frameborder="0"></iframe></li>     
+        <li><iframe src="http://player.vimeo.com/video/72325961/" width="765" height="410" frameborder="0"></iframe></li>		
+    </ul>
+</div>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/jquery.fitvids.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.bxslider.js"></script>
+<script type="text/javascript">	
+    $(document).ready(function(){
+        $('.bxslider').bxSlider({
+            mode: 'fade',           // тип перехода между слайдами может быть 'horizontal', 'vertical', 'fade'
+            captions: true,         // отображение title
+			easing: 'easeInOutQuad',// анимация слайда
+			controls: true,         // отображение стрелки - вперед, назад
+			startSlide: 0,          // Показ начнется с заданного слайда
+			infiniteLoop: true,     // показывать первый слайд за последним 
+			pager: true,            // показ номера страницы
+			auto: true,             // сделать автоматический переход
+			autoControls: true,     // показывает кнопку плей и стоп
+			video: true,            // включить видео
+			pause: 4000,            // время между сменой слайдов в м-сек
+            speed: 500,             // длительность перехода слайда в м-сек
+			useCSS: false           // CSS переходы
+        });
+    });
+</script>
+</body>
+</html>

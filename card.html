@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+	
+	<link rel="stylesheet" href="plugins/owl-carousel/assets/owl.carousel.css">
+
+    <link rel="stylesheet" href="plugins/owl-carousel/assets/owl.theme.default.css">
+	
+	<link rel="stylesheet" type="text/css" href="plugins/bxslider/css/style.css" />
+	
+	<link rel="stylesheet" href="css/style.css">
+    <title>Карточка товара</title>
+</head>
+<body>
+
+<header id = "header" class = "header">
+	<div class = "container">
+		<div class = "header_pk">
+			<div class = "row">
+				<div class = "col-md-3">
+					<a class = "logo" href = "/"><img src = "images/logo.png" /></a>
+				</div>
+				<div class = "col-md-3">
+					<div class = "search-form">
+						<form method = "GET" action = "">
+							<input type = "text" placeholder = "Поиск по сайту" required/>
+							<input type = "submit" value = ""/>
+						</form>
+					</div>
+					<div class = "clear"></div>
+				</div>
+				<div class = "col-md-3">
+					<p class = "header__phone"><span>8 (861)</span> 255-29-29</p>
+					<p class = "header__wc"><span>8 (918)</span> 174-81-22</p>
+					<p class = "header__addr">Краснодар, ул. Хакурате 4</p>
+					<div class = "clear"></div>
+				</div>
+				<div class = "col-md-2">
+					<div class = "header__basket">
+						<a href = "">Корзина товаров</a>
+						<p><span>0</span> товаров</p>
+					</div>
+				</div>
+				<div class = "col-md-1">
+					<ul class = "social">
+						<li><a href = ""><img src = "images/inst.png" /></a></li>
+						<li><a href = ""><img src = "images/vk.png" /></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>	
+		<div class = "header__pl">
+			<div class = "row">
+				<div class = "col-sm-6">
+					<a class = "logo" href = "/"><img src = "images/logo.png" /></a>
+				</div>
+				<div class = "col-sm-4">
+					<p class = "header__phone"><span>8 (861)</span> 255-29-29</p>
+					<p class = "header__wc"><span>8 (918)</span> 174-81-22</p>
+					<p class = "header__addr">Краснодар, ул. Хакурате 4</p>
+					<div class = "clear"></div>					
+				</div>
+				<div class = "col-sm-2">
+					<ul class = "social">
+						<li><a href = ""><img src = "images/inst.png" /></a></li>
+						<li><a href = ""><img src = "images/vk.png" /></a></li>
+					</ul>
+					<div class = "clear"></div>	
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "col-sm-3">
+					<a class = "mobile__menu__show__pl" href = "javascript:void(0);">Меню</a>
+				</div>
+				<div class = "col-sm-4">
+					<div class = "search-form">
+						<form method = "GET" action = "">
+							<input type = "text" placeholder = "Поиск по сайту" required/>
+							<input type = "submit" value = ""/>
+						</form>
+					</div>
+					<div class = "clear"></div>					
+				</div>
+				<div class = "col-sm-5">
+					<div class = "header__basket">
+						<a href = "">Корзина товаров</a>
+						<p><span>0</span> товаров</p>
+					</div>
+					<div class = "clear"></div>
+				</div>
+			</div>
+		</div>
+		<div class = "header__mob">
+			<div class = "row">
+				<div class = "col-xs-9">
+					<a class = "logo" href = "/"><img src = "images/logo.png" /></a>
+				</div>
+				<div class = "col-xs-3">
+					<a class = "mobile__menu__show" href = "javascript:void(0);"></a>
+					<div class = "clear"></div>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "col-xs-7">
+					<p class = "header__phone"><span>8 (861)</span> 255-29-29</p>
+					<p class = "header__wc"><span>8 (918)</span> 174-81-22</p>
+					<p class = "header__addr">Краснодар, ул. Хакурате 4</p>
+					<div class = "clear"></div>				
+				</div>
+				<div class = "col-xs-5">
+					<ul class = "social">
+						<li><a href = ""><img src = "images/inst.png" /></a></li>
+						<li><a href = ""><img src = "images/vk.png" /></a></li>
+					</ul>
+					<div class = "clear"></div>						
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "col-xs-6">
+					<div class = "search-form">
+						<form method = "GET" action = "">
+							<input type = "text" placeholder = "Поиск по сайту" required/>
+							<input type = "submit" value = ""/>
+						</form>
+					</div>
+					<div class = "clear"></div>				
+				</div>
+				<div class = "col-xs-6">
+					<div class = "header__basket">
+						<a href = "">Корзина товаров</a>
+						<p><span>0</span> товаров</p>
+					</div>
+					<div class = "clear"></div>				
+				</div>
+			</div>
+		</div>
+		<div class = "row">
+			<div class = "col-md-12">
+                <div class = "header__menu">
+                    <ul>
+                        <li><a href="">Главная</a></li>
+                        <li class = "active"><a href="">Каталог</a></li>
+                        <li><a href="">Распродажа</a></li>
+                        <li><a href="">Полезная информация</a></li>
+                        <li><a href="">Контакты</a></li>
+                    </ul>
+					<a class = "close__menu" href = "javascript:void(0);"><img src = "images/close.png" /></a>
+                </div>			
+			</div>
+		</div>
+	</div>
+</header>
+
+<section class = "content">
+	<div class = "container">
+		<div class = "row">
+			<div class = "col-md-3">
+				<div class = "catalog__menu">
+					<div class = "catalog__menu__head"><p>Каталог</p><a class = "catalog__menu__close" href = "javascript:void(0);"><img src = "images/close.png"/></a></div>
+					<ul>
+						<li><a href = "">Батист</a></li>
+						<li><a href = "">Гипюр</a></li>
+						<li><a href = "">Джинс</a></li>
+						<li class = "active"><a href = "">Жаккард</a></li>
+						<li><a href = "">Искусственный мех</a></li>
+						<li><a href = "">Костюмная ткань</a></li>
+						<li><a href = "">Костюмно-плательный креп</a></li>
+						<li><a href = "">Лён</a></li>
+						<li><a href = "">Органза</a></li>
+						<li><a href = "">Пайетка</a></li>
+						<li><a href = "">Пальтовая ткань</a></li>
+						<li><a href = "">Подкладочная ткань</a></li>
+						<li><a href = "">Сетка</a></li>
+						<li><a href = "">Тафта</a></li>
+						<li><a href = "">Трикотаж</a></li>
+						<li><a href = "">Фурнитура</a></li>
+						<li><a href = "">Хлопок</a></li>
+						<li><a href = "">Шифон</a></li>
+						<li><a href = "">Шелк</a></li>
+						<li><a href = "">Штапель</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class = "col-md-9">
+				<div class = "catalog__inner">
+					<ul class = "breadcrumbs">
+						<li><a href = "">Главная</a></li>
+						<li><a href = "">Каталог</a></li>
+						<li>Карточка товара</li>
+					</ul>
+					<div class = "catalog__card">
+						<div class = "row">
+							<div class = "col-md-2">
+								<ul class="bxslider">
+									<li><img src="images/tovar.png" /></li>
+									<li><img src="images/tovar.png" /></li>
+									<li><img src="images/tovar.png" /></li>
+									<li><img src="images/tovar.png" /></li>
+									<li><img src="images/tovar.png" /></li>
+								</ul>	
+							</div>
+							<div class = "col-md-5 col-sm-6">
+								<div class = "tovar__img"><img src="images/tovar.png" /></div>
+							</div>
+							<div class = "preview__slider2">
+								<div class = "col-sm-12">
+									<div id = "preview__slider2" class = "owl-carousel">
+										<div class="item"><img src = "images/tovar.png" /></div>
+										<div class="item"><img src = "images/tovar.png" /></div>
+										<div class="item"><img src = "images/tovar.png" /></div>
+										<div class="item"><img src = "images/tovar.png" /></div>
+									</div>			
+								</div>
+							</div>			
+							<div class = "col-md-5 col-sm-6">
+								<div class = "card__params">
+									<p class = "card__params__art">Арт. ЖА-040</p>
+									<p class = "card__params__name">Жаккард</p>
+									<table>
+										<tr>
+											<td>Состав:</td>
+											<td>Шелк 94% эластан 6%</td>
+										</tr>
+										<tr>
+											<td>Ширина:</td>
+											<td>145</td>
+										</tr>
+										<tr>
+											<td>Страна</td>
+											<td>Италия</td>
+										</tr>
+										<tr>
+											<td>Наличие на складе</td>
+											<td>7.6 м</td>
+										</tr>										
+									</table>
+									<div class = "card__price">
+										<p class = "card__price__cena">528 <span>руб.</span></p>
+										<p class = "card__price__square">цена за м<sup>2</sup></p>
+									</div>
+									<div class = "card__order">
+										<a class = "card_in_basket" href = ""><span>В корзину</span></a>
+										<a class = "card_in_order" href = "">Заказать в один клик</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class = "row">
+							<div class = "col-sm-12">
+								<div id = "preview__slider" class = "owl-carousel preview__slider1">
+									<div class="item"><img src = "images/tovar.png" /></div>
+									<div class="item"><img src = "images/tovar.png" /></div>
+									<div class="item"><img src = "images/tovar.png" /></div>
+									<div class="item"><img src = "images/tovar.png" /></div>
+								</div>			
+							</div>
+						</div>
+					</div>
+					<div class = "card__desc">
+						<div class = "row">
+							<div class = "col-md-12">
+								<h3>Описание</h3>
+								<p>Трикотаж (о) темно-синий - цена 2 500 руб. У нас самые доступные цены на Трикотаж в Москве, доставка по всей России - интернет магазин тканей Тессутидея. Артикул товара для заказа - 13-1315. Страна производства ткани – Италия. Ширина этого материала - 145. Состав - Шелк 94% эластан 6%. Наличие остатков на складе - 7.6 м</p>
+								<p>Эта ткань предназначена для пошива разнообразных спортивных костюмов, сарафанов, блузок и платьев, футболок и маек. Различная плотность полотна позволяет шить как легкие, так и теплые вещи.</p>
+							</div>
+						</div>
+					</div>					
+				</div>
+			</div>
+		</div>
+		<div class = "delivery__and__order">
+			<div class = "row">
+				<div class = "col-md-6 col-sm-6">
+					<div class = "card__delivery">
+						<h3>Доставка</h3>
+						<p>Трикотаж (о) темно-синий - цена 2 500 руб. У нас самые доступные цены на Трикотаж в Москве, доставка по всей России - интернет магазин тканей Тессутидея. Артикул товара для заказа - 13-1315. Страна производства ткани – Италия. Ширина этого материала - 145. Состав - Шелк 94% эластан 6%. Наличие остатков на складе - 7.6 м</p>
+					</div>
+				</div>
+				<div class = "col-md-6 col-sm-6">
+					<div class = "card__order1">
+						<h3>Оплата</h3>
+						<p>Трикотаж (о) темно-синий - цена 2 500 руб. У нас самые доступные цены на Трикотаж в Москве, доставка по всей России - интернет магазин тканей Тессутидея. Артикул товара для заказа - 13-1315. Страна производства ткани – Италия. Ширина этого материала - 145. Состав - Шелк 94% эластан 6%. Наличие остатков на складе - 7.6 м</p>					
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+</section>
+	
+
+
+<a href = "javascript:void(0);" class = "cat_btn"><img src = "images/cat_btn.png" /></a>
+<a href = "#header" id = "scroll_top" class = "top_btn"><img src = "images/to_top.png" /></a>
+
+<footer class = "footer">
+	<div class = "container">
+		<div class = "row">
+			<div class = "col-md-12">
+                <div class = "footer__menu">
+                    <ul>
+                        <li><a href="">Главная</a></li>
+                        <li><a href="">Каталог</a></li>
+                        <li><a href="">Распродажа</a></li>
+                        <li><a href="">Полезная информация</a></li>
+                        <li><a href="">Контакты</a></li>
+                    </ul>
+                </div>			
+			</div>
+		</div>
+	</div>
+</footer>
+
+<section class = "copyright">
+	<div class = "container">
+		<div class = "row">
+			<div class = "col-md-12">
+				<p>&copy; Все права защищены</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/maskedinput.js"></script>
+<script type = "text/javascript" src="plugins/owl-carousel/owl.carousel.js"></script>
+
+<script type="text/javascript" src="plugins/bxslider/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="plugins/bxslider/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="plugins/bxslider/js/jquery.bxslider.js"></script>
+
+<script src="js/script.js"></script>
+
+<script type = "text/javascript">
+$(document).ready(function(){
+	$('.bxslider').bxSlider({
+		mode: 'vertical',           // тип перехода между слайдами может быть 'horizontal', 'vertical', 'fade'
+		captions: false,         // отображение title
+		easing: 'easeInOutQuad',// анимация слайда
+		controls: true,         // отображение стрелки - вперед, назад
+		startSlide: 0,          // Показ начнется с заданного слайда
+		infiniteLoop: true,     // показывать первый слайд за последним 
+		pager: false,            // показ номера страницы
+		auto: false,             // сделать автоматический переход
+		autoControls: false,     // показывает кнопку плей и стоп
+		video: false,            // включить видео
+		pause: 4000,            // время между сменой слайдов в м-сек
+		speed: 500,             // длительность перехода слайда в м-сек
+		useCSS: false           // CSS переходы
+	});
+	
+	$('.bx-wrapper img').click(function(){
+		var path = $(this).attr('src');
+
+		$('.tovar__img').empty();
+		
+		$('.tovar__img').append('<img src = "' + path + '" />');
+	});
+	
+	$('#preview__slider .owl-item img').click(function(){
+		var path = $(this).attr('src');
+
+		$('.tovar__img').empty();
+		
+		$('.tovar__img').append('<img src = "' + path + '" />');		
+	});
+});
+</script>
+
+</body>
+</html>	
